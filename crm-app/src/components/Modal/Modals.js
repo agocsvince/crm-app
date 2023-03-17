@@ -12,6 +12,7 @@ import {
   List,
   ListItem,
   ListItemText,
+  Dialog,
 } from "@mui/material";
 import AddIcon from "@mui/icons-material/Add";
 import Notes from "../Notes";

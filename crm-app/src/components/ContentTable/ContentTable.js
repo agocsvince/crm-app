@@ -165,7 +165,7 @@ export default function ContentTable() {
               </TableRow>
             </TableFooter>
           </Table>
-          {/* <Modals data={customerData} open={isOpen} setIsOpen={setIsOpen} /> */}
+          {customerData && <Modals data={customerData} open={isOpen} setIsOpen={setIsOpen} />}
         </TableContainer>
       )}
     </>
